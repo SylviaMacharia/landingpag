@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+}
+
+/*************creating two-column layout*******/
+
+.column{
+    flex: 50%;
+    padding: 50px 20px 10px 50px;
+    
+    
+}
+
+/**************styling the image**********/
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*******styling the ***/
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+
+.icon{
+    height: 35px;
+    margin-top: 25px;
+}
+/*******styling the button******/
+button{
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    color: black;
+    width: 200px;
+}
+
+button:hover{
+    background-color:hsl(300, 69%, 71%);
+    color: white;
+}
+
+
+/***********Foooter**********/
+
+.attribution { 
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 10px;
+    margin-bottom: 0%;
+}
+.attribution:hover{
+    color: hsl(300, 69%, 71%);
+}
